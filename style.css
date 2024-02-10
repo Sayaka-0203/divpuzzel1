@@ -1,0 +1,38 @@
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body {
+  width: 100%;
+}
+.wrapper{
+  width: 400px;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+  background: #f00;
+}
+
+.content{
+  float: left;
+  width: 150px;
+  height: 250px;
+  background: #00ff1e;
+}
+
+.side{
+  float: left;
+  width: 250px;
+  height: 250px;
+  background: #30f;
+}
+
+.footer{
+  width: 100%;
+  height: 100px;
+  background: #ffe600;
+}
